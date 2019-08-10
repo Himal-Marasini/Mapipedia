@@ -13,192 +13,206 @@
 
     <header>
         <div class="row">
-            <div class="forAnchor">
-                <a href="#">Buy Mapipedia a coffe</a>
-                <span class="hot_coffee">
-                    <img src="./assets/Icons/hot-coffee.svg" id="coffee">
+            <div class="header__link-container">
+                <a href="#" class="header__link">Buy Mapipedia a coffe</a>
+                <span class="header__icon-container">
+                    <img src="./assets/Icons/hot-coffee.svg" class="coffe-icon">
                 </span>
             </div>
-            <div class="search_container">
-                <input type="text" placeholder="Search for the data" class="search_bar">
-                <span class="mg_glass">
-                    <img src="./assets/Icons/search.svg" id="search">
+            <div class="header__search-container">
+                <input type="text" placeholder="Search for the data" class="header__search-field">
+                <span class="header__search-icon-container">
+                    <img src="./assets/Icons/search.svg" class="search-icon">
                 </span>
             </div>
         </div>
     </header>
 
-    <section class="hero_area">
+    <section class="hero-area">
         <div class="row">
-            <h1>Mapipedia</h1>
+            <h1 class="hero-area__title">Mapipedia</h1>
 
-
-            <div class="forResponsive">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Products</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="hero-area__nav">
+                <ul class="hero-area__items">
+                    <li class="hero-area__item"><a href="index.html">Home</a></li>
+                    <li class="hero-area__item"><a href="#">About</a></li>
+                    <li class="hero-area__item"><a href="#">Help</a></li>
+                    <li class="hero-area__item"><a href="#">Contact Us</a></li>
+                    <li class="hero-area__item"><a href="#">Products</a></li>
+                </ul>
+            </nav>
         </div>
 
         <img src="./assets/Icons/menu.svg" id="menu" alt="menu">
 
         <div class="row">
-            <div class="heroArea_text">
+            <div class="hero-area__text-container">
                 <p>Mapipedia helps to communicate the
-                    <span class="bold">WHAT,WHEN,WHERE,HOW and WHY</span>
+                    <span class="text-bold">WHAT,WHEN,WHERE,HOW and WHY</span>
                     of data by displaying graphs,animated heat maps and
                     events from geospatial time series data</p>
             </div>
-            <div class="btn_container">
-                <input type="button" value="Sign in/up" class="btn" id="btn_SignIn">
-                <input type="button" value="Learn More" class="btn" id="btn_learnMore">
+            <div>
+                <!-- class="feature__btn-container" -->
+                <input type="button" value="Sign in/up" class="btn btn--blue">
+                <input type="button" value="Learn More" class="btn btn--border">
             </div>
         </div>
 
-
     </section>
 
-    <section class="features">
+    <section>
         <div class="row">
-            <h2>Mapipedia helps in</h2>
-            <div class="container">
-                <div class="one">
-                    <div class="img&heading">
-                        <img src="./assets/Icons/worldwide.svg" class="worldWide">
-                        <h3>Mapping your data</h3>
+            <h2 class="feature__title">Mapipedia helps in</h2>
+
+            <div class="grid__container">
+
+                <div class="feature__container">
+                    <div class="feature__image-heading">
+                        <img src="./assets/Icons/worldwide.svg" class="feature__icon">
+                        <h3 class="feature__subTitle">Mapping your data</h3>
                     </div>
-                    <div class="description">
+                    <div class="feature__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
-                <div class="two">
-                    <div class="img&heading">
-                        <img src="./assets/Icons/money-bag.svg" class="money-bag">
-                        <h3>Earning money with data</h3>
+
+                <div class="feature__container">
+                    <div class="feature__image-heading">
+                        <img src="./assets/Icons/money-bag.svg" class="feature__icon">
+                        <h3 class="feature__subTitle">Earning money with data</h3>
                     </div>
-                    <div class="description">
+                    <div class="feature__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
-                <div class="three">
-                    <div class="img&heading">
-                        <img src="./assets/Icons/map.svg" class="map">
-                        <h3>Generating graphs and animated maps</h3>
+
+                <div class="feature__container">
+                    <div class="feature__image-heading">
+                        <img src="./assets/Icons/map.svg" class="feature__icon">
+                        <h3 class="feature__subTitle">Generating graphs and animated maps</h3>
                     </div>
-                    <div class="description">
+                    <div class="feature__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <section class="other_example">
+    <section class="example">
+
         <div class="row">
-            <div class="forGloble">
-                <h4>Other Examples of what you can do with MAPIPEDIA</h5>
-                    <h5>(Click the <span style="font-weight:600">PLAY</span> button once
-                        you open the links below)</h6>
-                        <ul>
-                            <li><a href='#'>Formation of the USA (States and Flags)</a></li>
-                            <li><a href='#'>Growth of the Salvation Army</a></li>
-                            <li><a href='#'>Prevelance of Overweight Children Under 5</a></li>
-                            <li><a href='#'>Aids Related Deaths</a></li>
-                            <li><a href='#'>Global Population Growth</a></li>
-                        </ul>
+
+            <div class="example__container">
+                <h4 class="example__title">Other Examples of what you can do with MAPIPEDIA</h4>
+                <h5>(Click the <span style="font-weight:600">PLAY</span> button once
+                    you open the links below)</h5>
+                <ul class="example__items">
+                    <li class="example__item"><a href='#' class="example__link">Formation of the USA (States and
+                            Flags)</a></li>
+                    <li class="example__item"><a href='#' class="example__link">Growth of the Salvation Army</a></li>
+                    <li class="example__item"><a href='#' class="example__link">Prevelance of Overweight Children Under
+                            5</a></li>
+                    <li class="example__item"><a href='#' class="example__link">Aids Related Deaths</a></li>
+                    <li class="example__item"><a href='#' class="example__link">Global Population Growth</a></li>
+                </ul>
             </div>
+
         </div>
     </section>
 
     <section class="tutorial">
+
         <div class="row">
-            <h2>feeling confused ?</h2>
-            <h3>don't worry we are here to help you</h3>
-            <div class="left_text">
+            <h2 class="tutorial__title">feeling confused ?</h2>
+            <h3 class="tutorial__subTitle">don't worry we are here to help you</h3>
+
+            <div class="tutorial__text">
                 <p>for documentation of mapping your own data:<span>
-                        <a href="#">Click here</a>
+                        <a href="#" class="tutorial__link">Click here</a>
                     </span></p>
                 <p>Sample example for working with every country data:<span>
-                        <a href="#">Click here</a>
+                        <a href="#" class="tutorial__link">Click here</a>
                     </span></p>
-                <h2>OR</h2>
+                <h2 class="tutorial__text-title">OR</h2>
                 <p>watch the following youtube tutorial for creating your own page</p>
-                <img src="./assets/Icons/rough.png" alt="Click on the side youtube tutorial" id="arrow">
+                <img src="./assets/Icons/rough.png" alt="Click on the side youtube tutorial" class="arrow-icon">
+
             </div>
-            <div class="right_img">
+
+            <div class="tutorial__image-container">
             </div>
         </div>
+
     </section>
 
-    <section class="featured_page">
+    <section class="feature-page">
         <div class="row">
-            <div class="featured_container">
-                <span>
-                    <img src="./assets/Icons/feature.svg" class="stars">
+
+            <div class="feature-page__container">
+                <span class="feature-page__icon-container">
+                    <img src="./assets/Icons/feature.svg" class="star-icon">
                 </span>
-                <span>
-                    <img src="./assets/Icons/feature.svg" class="stars">
+                <span class="feature-page__icon-container">
+                    <img src="./assets/Icons/feature.svg" class="star-icon">
                 </span>
-                <p>feature pages</p>
-                <span>
-                    <img src="./assets/Icons/feature.svg" class="stars">
+                <p class="feature-page__title-text">feature pages</p>
+                <span class="feature-page__icon-container">
+                    <img src="./assets/Icons/feature.svg" class="star-icon">
                 </span>
-                <span>
-                    <img src="./assets/Icons/feature.svg" class="stars">
+                <span class="feature-page__icon-container">
+                    <img src="./assets/Icons/feature.svg" class="star-icon">
                 </span>
             </div>
-            <div class="content">
-                <p><span style="font-weight:600">Average Life Expectancy Since 1800</span>
+
+            <div class="feature-page__text-container">
+                <p class="feature-page__text"><span style="font-weight:600">Average Life Expectancy Since 1800</span>
                     or Click on the Youtube commentary below.
                 </p>
                 <a href="#">
-                    <img src="./assets/Images/ScreenShot.PNG" alt="Click here" id="featured_img">
+                    <img src="./assets/Images/ScreenShot.PNG" alt="Click here" class="feature-img">
                 </a>
             </div>
-            <img src="./assets/Icons/left_arrow.png" alt="move to left" id="left_arrow">
-            <img src="./assets/Icons/Right_arrow.png" alt="move to right" id="right_arrow">
+            <img src="./assets/Icons/left_arrow.png" alt="move to left" class="left-arrow">
+            <img src="./assets/Icons/Right_arrow.png" alt="move to right" class="right-arrow">
         </div>
     </section>
 
     <footer>
         <div class="row">
-            <nav>
-                <ul>
+            <nav class="footer__nav">
+                <ul class="footer__items">
                     <a href="index.html">
-                        <li style="margin: 0">Home</li>
+                        <li class="footer__item" style="margin: 0">Home</li>
                     </a>
-                    <li>|</li>
+                    <li class="footer__item">|</li>
                     <a href="#">
-                        <li>About Us</li>
+                        <li class="footer__item">About Us</li>
                     </a>
-                    <li>|</li>
+                    <li class="footer__item">|</li>
                     <a href="#">
-                        <li>Contact Us</li>
+                        <li class="footer__item">Contact Us</li>
                     </a>
-                    <li>|</li>
+                    <li class="footer__item">|</li>
                     <a href="#">
-                        <li>Acknowledgements</li>
+                        <li class="footer__item">Acknowledgements</li>
                     </a>
-                    <li>|</li>
+                    <li class="footer__item">|</li>
                     <a href="#">
-                        <li>Terms & Conditions</li>
+                        <li class="footer__item">Terms & Conditions</li>
                     </a>
-                    <li>|</li>
+                    <li class="footer__item">|</li>
                     <a href="#">
-                        <li>Privacy Policy</li>
+                        <li class="footer__item">Privacy Policy</li>
                     </a>
-                    <li>|</li>
+                    <li class="footer__item">|</li>
                     <a href="#">
-                        <li>Donation Terms</li>
+                        <li class="footer__item">Donation Terms</li>
                     </a>
                 </ul>
             </nav>
